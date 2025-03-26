@@ -1,0 +1,22 @@
+e >
+Ou > 
+Não >
+Xou >
+
+
+E:
+            TABELA VERDADE
+| T1/P1 | T2/P2 | T3/P3 | T1 E T2 ET3 |
+|   V   |   V   |   V   |      V      |
+|   V   |   V   |   F   |      F      |
+|   V   |   F   |   V   |      F      |
+|   V   |   F   |   F   |      F      |
+|   F   |   V   |   V   |      F      |
+|   F   |   V   |   F   |      F      | 
+|   F   |   F   |   V   |      F      |
+|   F   |   F   |   F   |      F      |
+
+
+
+
+ 
