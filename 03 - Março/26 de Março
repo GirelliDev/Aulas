@@ -1,10 +1,15 @@
-e >
-Ou > 
-Não >
-Xou >
+|               OPERADORES LOGICOS                  |
+|  e  | SÓ SERÁ VERDADE SE TUDO FOR VERDADE         |
+|  Ou | SERÁ VERDADE SE PELO MENOS UMA FOR VERDADE  |
+| Não | ALTERA O VALOR DO TESTE                     |
+| Xou | SÓ SERÁ VERDADE SE TIVER APENAS UMA VERDADE |
 
+xou = ou exclusivo
 
-E:
+1 teste  | 2 respostas
+2 testes | 4 respostas
+3 testes | 8 respostas
+
             TABELA VERDADE
 | T1/P1 | T2/P2 | T3/P3 | T1 E T2 ET3 |
 |   V   |   V   |   V   |      V      |
@@ -15,6 +20,35 @@ E:
 |   F   |   V   |   F   |      F      | 
 |   F   |   F   |   V   |      F      |
 |   F   |   F   |   F   |      F      |
+
+      TABELA VERDADE
+| T1/P1 | T2/P2 | T3/P3 | T1 OU T2  OU T3 |
+|   V   |   V   |   V   |        F        |
+|   V   |   V   |   F   |        F        |
+|   V   |   F   |   V   |        F        |
+|   V   |   F   |   F   |        V        |
+|   F   |   V   |   V   |        F        |
+|   F   |   V   |   F   |        F        | 
+|   F   |   F   |   V   |        V        |
+|   F   |   F   |   F   |        F        |
+
+
+               XOU
+| T1/P1 | T2/P2 | T3/P3 | XOU (T1,T2,T3) |
+|   V   |   V   |   V   |        F       |
+|   V   |   V   |   F   |        F       |
+|   V   |   F   |   V   |        F       |
+|   V   |   F   |   F   |        V       |
+|   F   |   V   |   V   |        F       |
+|   F   |   V   |   F   |        V       | 
+|   F   |   F   |   V   |        V       |
+|   F   |   F   |   F   |        F       |
+
+
+
+
+
+
 
 
 
