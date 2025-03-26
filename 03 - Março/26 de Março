@@ -3,8 +3,17 @@
 |  Ou | SERÁ VERDADE SE PELO MENOS UMA FOR VERDADE  |
 | Não | ALTERA O VALOR DO TESTE                     |
 | Xou | SÓ SERÁ VERDADE SE TIVER APENAS UMA VERDADE |
+|     |              DEFINIÇÃO /\                   |
 
 xou = ou exclusivo
+
+| =, == :=|      IGUALDADE     |
+|    <    |      MENOR QUE     |
+|    >    |      MAIOR QUE     |
+|   >=    | MAIOR OU IGUAL QUE |
+|   <=    | MENOR OU IGUAL QUE |
+|  <>, != |      DIFERENTE     |
+
 
 1 teste  | 2 respostas
 2 testes | 4 respostas
