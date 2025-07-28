@@ -116,3 +116,13 @@ Tensão: Disponivel em versões de 3 e 5V
 Bootloader: Suporte para bootloader USB, Facilitando a programação com a ArduinoIDE
 Interface Serial: não possui interface serial nativa, o que pode dificultar o uso de comunicação serial para depuração
 Tamanho: Muito pequeno e compacto, ideal para projetos com restrição de espaço
+
+CLONE E VARIANTES DE ARDUINOS
+TCHEDUINO  (mas bah tche)
+SPARKFUN
+ADAFRUIT
+OLIMEXINO
+FREETRONICS
+PARTICLE
+GENUINO
+
