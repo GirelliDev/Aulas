@@ -1,6 +1,36 @@
 CONECTORES DE ALIMENTAÇÃO
+
 pino RESET com o GND faz um reset no Arduino como é feito no PC
 pino de 3.3V é emitido para o circuito tensão de 3,3 Volts
 pino de 5V é emitido para o circuito tensão de 5 Volts
 GND significa Ground (terra) ou seja 0V (Aterramento)
 VIN significa Volt In, ou seja, uma entrada de tensão externa (de 7 a maximo 12V)
+
+CONECTORES ANALOGICOS
+
+São 6 portasa por padrão do tipo analogicas, mas podem ser utilizadas como entradas e saidas digitais
+Nas portas analogicas do arduino podem ser ligados componentes que geram sinais analogicos como sensores de temperatura, luminosidade, umidade, pressão, potenciometros, e outros dispositivos que variam
+a grandeza física que estão medindo.
+Falou em medição, analogico.
+
+COMPONENTES ANALOGICOS
+sensor detemperatura
+sensor de luminosidade
+sensor de umidade
+sensor de pressão
+sensor ded som
+sensor de força/peso
+sensor de proximidade (ultrassonicos ou infravermelho)
+
+Potenciometros: permitem variar resistencia criando um sinal analogico de tensão
+Termistores: resistores cuja resistencia varia com a temperatura
+Fotoresistories: resistores cuka resistência varia com a intensidade da luz
+Mmicrofones: Captação de audio analogico
+Células de carga: utilizadas para medir a força e peso.
+
+CONECTORES DIGITAIS
+São ao todo 14 portas digitais
+dessas, 6 são PWM, são portas digitais que podem simular saidas analogicas
+a porta 1 por padrão é TX (Transmissão de dados)
+a porta 0 por padrão é RX (Recepção de dados)
+o pino 13 do arduino é importante principalmente porque ele tem um led integrado conectado a ele, tornando-o ideal para testes e depuração rapidos do codiho e não sendo necessario declará-lo no codigo
