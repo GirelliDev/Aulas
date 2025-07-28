@@ -1,3 +1,5 @@
+PROGRAMAÇÃO EM C COM ARDUINO
+
 CONECTORES DE ALIMENTAÇÃO
 
 pino RESET com o GND faz um reset no Arduino como é feito no PC
@@ -53,7 +55,7 @@ Clock: 16Mhz
 Memoria:
 256Kb de memoria flash (8kb usados pelo bootloader)
 8Kb de Sram
-4Kb de Feprom
+4Kb de Eeprom
 Pinos:
 54 pinos digitais (15 com suporte a PWM), 16 pinos analogicos
 portas seriais: 4 portas seriais (UART)
@@ -86,4 +88,31 @@ Pinos de aterramento(GND) e reiniialização (RESET)
 Suporte a Comunicação IPC (TWI) Através da biblioteca Wire
 suporte a Comunicação SPI
 
+TIPOS DE ARDUINO - LEONARDO
+Microcontrolador: ATmega328u4
+Clock:16Mhz
+Pinos: 20 Digitais (7 são PWM) E 12 Analogicas
+Conexão: Micro USB
+Memoria Flash: 32Kb (4KB Do bootloader)
+SRAM: 2,5KB
+EEPROM:1KB
+Emula Teclado e Mouse
 
+TIPOS DE ARDUINO - LILIPAD
+Design para vestiveis: Sua forma circular e achatada permite que seja costurado diretamente em tecidos e roupas
+conectividade: possui pinos com furos para facilitar a costura com linhas condutoras e conexão com sensores e atuadores
+Microcontrolador: Utiliza o ATmega328p, o mesmo do arduino uno e outras versões
+Tensão de Operação: 2.7 a 5.5V, podendo ser alimentado por bateria ou fonte externa
+Pinos: 14 pinos digitais(6 podem ser PWM) e 6 Entradas Analoficas
+Memoria: conta com 16Kb de memoria flash, 1kb de Sram e 512B de eeprom
+conectividade: Pode ser programado no Arduino IDE usando o adaptador para ele
+
+TIPOS DE ARDUINO - TRINKET
+Microcontroaldor: Attiny85(8bits)
+Memoria:8kb de memoria flash,512 bytes de Sram e 512 Bytes de EEPROM
+pinos: 8pinos no total, 2 de alimentação
+conectividade: conector mini usb para alimentação e programação
+Tensão: Disponivel em versões de 3 e 5V
+Bootloader: Suporte para bootloader USB, Facilitando a programação com a ArduinoIDE
+Interface Serial: não possui interface serial nativa, o que pode dificultar o uso de comunicação serial para depuração
+Tamanho: Muito pequeno e compacto, ideal para projetos com restrição de espaço
