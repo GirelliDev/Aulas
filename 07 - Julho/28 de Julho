@@ -1,1 +1,6 @@
-.96
+CONECTORES DE ALIMENTAÇÃO
+pino RESET com o GND faz um reset no Arduino como é feito no PC
+pino de 3.3V é emitido para o circuito tensão de 3,3 Volts
+pino de 5V é emitido para o circuito tensão de 5 Volts
+GND significa Ground (terra) ou seja 0V (Aterramento)
+VIN significa Volt In, ou seja, uma entrada de tensão externa (de 7 a maximo 12V)
