@@ -34,3 +34,56 @@ dessas, 6 são PWM, são portas digitais que podem simular saidas analogicas
 a porta 1 por padrão é TX (Transmissão de dados)
 a porta 0 por padrão é RX (Recepção de dados)
 o pino 13 do arduino é importante principalmente porque ele tem um led integrado conectado a ele, tornando-o ideal para testes e depuração rapidos do codiho e não sendo necessario declará-lo no codigo
+
+TIPOS DE ARDUINO - UNO
+Microcontrolador: baseado no ATmega2560 (arquitetura AVR de 8 bits)
+Pinos: Possui 14 pinos digitais de entrada/saida, e 6 entradas analogicas
+Comunicação: conexão USB para comunicação com o computador e alimentação alem de um conector para alimentação externa
+Clock: um cristal oscilador de 16 Mhz fornece o clock para o microcontrolador
+Programação: utiliza a IDE do arduino, que permite programar em uma linguagem baseada em C/C++
+Recursos: inclui um botão de reset e conectores ICSP para programação e comunicação
+
+Facilidade de USB:é uma plataforma de codigo completo com uma linguagem de programação de facil aprendizagem, tornando-a ideal iniciantes e educadores
+
+MODELO MAIS CONHECIDO, MAIS SIMPLES
+
+TIPOS DE ARDUINO - MEGA
+Microcontrolador: baseado no ATmega2560 (arquitetura AVR de 8 bits)
+Clock: 16Mhz
+Memoria:
+256Kb de memoria flash (8kb usados pelo bootloader)
+8Kb de Sram
+4Kb de Feprom
+Pinos:
+54 pinos digitais (15 com suporte a PWM), 16 pinos analogicos
+portas seriais: 4 portas seriais (UART)
+Tensão de Operação: 5V
+Tensão de Entrada: Recomendado 7-12V Limite de 6-20V
+Outros:
+porta usb pra programação e alimentação
+conector de alimentação para fontes extermas
+conector ICSP para programaçao via  SPI
+proteção contra sobrecorrente na porta USB
+
+Oferece mais pinos e memoria, sendo ideal para projetos mais complexos que exigem mais recursos
+
+TIPOS DE ARDUINO - NaNo (minusculo)
+Tamanho: Muito compacto, com dimensões de aproximadamente 45x18mm
+microcontrolador: ATmega328P ou AtMEGA328PB
+Tensão de operação: 5V
+Tensão de Alimentação: 7-12V com limite Maximo 6-20V
+Pinos: 14 pinos digitais (6 deles PWM), E 8 Pinos analogicos
+Comunicação:Suporta comunicação Serial UART TTL (5V) através dos pinos 0 E 1
+conexão: USB mini para programação e comunicação com o computador
+interface: Compativel com protoboards e pode ser conectado diretamente a elas
+BOOTLOADER:possui um bootloader que permite a programação da placa via USB
+Outras caracteristicas:
+Memoria flask: 32k (com 2kb utilizados pelo bootloader)
+Sram: 2KB
+Velocidade do Clock: 16Mhz
+Pinos de interrupção externa: 2 e 3
+Pinos de aterramento(GND) e reiniialização (RESET)
+Suporte a Comunicação IPC (TWI) Através da biblioteca Wire
+suporte a Comunicação SPI
+
+
